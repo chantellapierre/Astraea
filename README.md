@@ -8,21 +8,21 @@ Data: I will primarily be using IP Geolocation’s free Astronomy API, which pro
 
 #Database Schema:
 User:  
-id
-first_name
-last_name
-email
-user_image
-favorite_event
+>id
+>first_name
+>last_name
+>email
+>user_image
+>favorite_event
 
 Event:
-id
-name
-description
-image
-time
-latitude
-longitude
+>id
+>name
+>description
+>image
+>time
+>latitude
+>longitude
 
 #Sensitive Data: Users’ personal information and password will need to be secured. Users will have the ability to change their password.
 
