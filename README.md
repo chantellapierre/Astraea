@@ -8,21 +8,25 @@ Data: I will primarily be using IP Geolocation’s free Astronomy API, which pro
 
 #Database Schema:
 User:  
->id
->first_name
->last_name
->email
->user_image
->favorite_event
+id
+first_name
+last_name
+email
+user_image
+favorite_events
 
 Event:
->id
->name
->description
->image
->time
->latitude
->longitude
+id
+name
+description
+image
+time
+latitude
+longitude
+
+User_Event:
+user_id
+event_id
 
 #Sensitive Data: Users’ personal information and password will need to be secured. Users will have the ability to change their password.
 
@@ -35,8 +39,8 @@ Add calendar reminder for events
 Enter address and see results for astronomy events that will be visible
 
 #User Flow:
-Register/Login
-Homepage will display astronomy events for the current date
+User can register or login
+User can view homepage which will display astronomy events for the current date
 User can click on event modules to view more information, photos, favorite, or add calendar reminder
 User can search or filter events using search bar/filter by options at top of page to narrow shown data to events tailored to user’s desired date, name, or location
 User can click on their profile in the top right corner to display their profile page, including their name, bio, favorites, and photo uploads 
