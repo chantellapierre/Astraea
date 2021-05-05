@@ -4,7 +4,8 @@
 #Goal: This astronomy events application will allow amateur astronomers to find information about astronomical events for hobby astronomy and astrophotography. 
 
 #User Demographics: The target audience of this application is adult astronomy hobbyists. 
-Data: I will primarily be using IP Geolocation’s free Astronomy API, which provides data on timing of “sunrise, sunset, moonrise, moonset, sun azimuth, moon azimuth, sun altitude, moon altitude, sun distance from the earth and moon distance from the earth from latitude and longitude or an IPv4 or IPv6 address for a given date.” 
+
+#Data: I will primarily be using IP Geolocation’s free Astronomy API, which provides data on timing of “sunrise, sunset, moonrise, moonset, sun azimuth, moon azimuth, sun altitude, moon altitude, sun distance from the earth and moon distance from the earth from latitude and longitude or an IPv4 or IPv6 address for a given date.” The Astronomy API allows location inputs based on city and state, latitude and longitude coordinates, or an IP address.  
 
 #Database Schema:
 User:  
